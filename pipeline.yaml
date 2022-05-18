@@ -1,0 +1,13 @@
+tasks:
+  - source: tasks.scrape.download_list
+    product: products/raw/list.html
+  - source: tasks.scrape.parse_list
+    product: products/interim/list.csv
+  # - source: tasks.scrape.scrape_issue
+  #   product: 
+  #     pdfs: products/raw/pdfs
+  #     jpgs: products/raw/jpgs
+  #     fake: products/scrape_issue.txt
+  # - source: tasks.scrape.parse_pages
+  #   product: products/enriched_list.csv
+    # upstream: page-

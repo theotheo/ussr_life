@@ -1,0 +1,11 @@
+name: ussr_life
+
+dependencies:
+  
+  - pip
+  - pip:
+    - numpy
+    - pandas
+    - ploomber
+    - requests
+    - parsel
